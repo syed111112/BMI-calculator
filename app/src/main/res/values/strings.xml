@@ -2,4 +2,6 @@
     <string name="app_name">BMI Calculator</string>
     <string name="uheight">com.example.individualassignmentsyed.uheight</string>
     <string name="uweight">com.example.individualassignmentsyed.uweight</string>
+    <string name="hyperlink">Please visit <a href="https://github.com/syed111112/BMI-calculator.git">bmi calculator website</a></string>
+
 </resources>
