@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!-- Text view for result view-->
+
+
+    <EditText
+        android:id="@+id/editTextweight"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:background="#AFF6FF"
+        android:hint="Enter Weight"
+        android:inputType="text" />
+    <!-- for messege input first number-->
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#00030304"
+        android:text="Weight(kg)"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <!--view messege -->
+    <TextView
+        android:id="@+id/textViewheight"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:background="#00030304"
+        android:textStyle="bold"
+        android:text="Height(cm)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <!-- take input for second number -->
+
+    <!-- button for run add logic and view result -->
+
+    <EditText
+        android:id="@+id/editTextheight"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:background="#AFF6FF"
+        android:hint="Enter Height"
+        android:inputType="text"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:text="Calculate"
+        app:backgroundTint="#52BC25" />
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="260dp"
+        android:background="#00030304"
+        android:text="Bmi "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_calculate"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="260dp"
+        android:background="#AFF6FF"
+        android:text="0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bmicategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:background="#00030304"
+        android:text="Bmi Category"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <!--view messege -->
+    <TextView
+        android:id="@+id/healthrisk"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:background="#00030304"
+        android:textStyle="bold"
+        android:text="Health risk"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewbmicat"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:background="#AFF6FF"
+        android:text="-"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewhealthrisk"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:background="#AFF6FF"
+        android:text="-"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="600dp"
+        android:text="About Us" />
+
+
+
+</RelativeLayout>

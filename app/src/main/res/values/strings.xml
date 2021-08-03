@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="uheight">com.example.individualassignmentsyed.uheight</string>
+    <string name="uweight">com.example.individualassignmentsyed.uweight</string>
+</resources>
